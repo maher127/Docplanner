@@ -1,0 +1,215 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* navbar */
+.nav {
+  height: 70px;
+}
+.logo-docplanner {
+  width: 268px;
+}
+
+.small-container {
+  max-width: 1015px;
+  padding: 0 20px;
+  margin: 0 auto;
+  padding: 0 !important;
+}
+.menu-item {
+  color: rgb(171, 171, 171);
+  font-size: 15px;
+  font-weight: 400;
+  padding: 9px;
+  transition: all 0.5s;
+}
+.menu-item:hover {
+  color: rgb(0, 179, 151);
+}
+.line1,
+.line2,
+.line3 {
+  width: 23px;
+  height: 2px;
+  margin: 5px;
+  transition: all 0.2s;
+  background-color: rgb(0, 179, 151) !important;
+}
+
+.change .line1 {
+  transform: rotate(-45deg) translate(-4px, 4px);
+  background-color: #fff !important;
+}
+
+.change .line2 {
+  opacity: 0;
+}
+
+.change .line3 {
+  transform: rotate(45deg) translate(-5px, -6px);
+  background-color: #fff !important;
+}
+.change-nav {
+  background-color: #00ccb1;
+}
+.dropdown-content {
+  display: none;
+  padding-top: 10px;
+  min-width: 220px;
+  margin-left: -100px;
+  background: #fff;
+  box-shadow: 0 5px 10px 0 #d3cfc9;
+  z-index: 1;
+}
+.departement:hover ~ .dropdown-content {
+  display: block;
+}
+.list-departments {
+  list-style-type: none;
+}
+/* navbar */
+
+/* Presentation Section  */
+.section-presentation {
+  margin: 33px 0 60px;
+  padding: 0 20px;
+}
+.lead__logo {
+  margin-top: 80px;
+  margin-left: 50%;
+}
+.headding-title {
+  font-size: 2.125rem;
+  color: #00b39b;
+}
+.headding-paragraphe {
+  font-weight: 400;
+  color: #747474;
+  line-height: 1.75;
+}
+/* Presentation Section  */
+.health-care {
+  max-height: auto;
+}
+.patient h2,
+.doctor h2 {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.7);
+}
+.patient h1,
+.doctor h1 {
+  font-size: 1.625em;
+  color: #fff;
+  margin-top: 0.3em;
+}
+
+.patient {
+  padding: 22px 40px 0;
+  background-color: #00b39b;
+  overflow: hidden;
+}
+.btn-dropdown {
+  color: #333333 !important;
+  font-size: 12px;
+  padding: 10px 20px 10px 20px;
+  font-family: 400 !important;
+  font-weight: bold;
+}
+.patient img {
+  height: 250px;
+  width: 220%;
+  margin-left: -60px;
+  margin-top: 10px;
+}
+.doctor {
+  background-color: #3d83df;
+  padding: 22px 40px 0;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.doctor img {
+  height: 250px;
+  margin-left: 180px;
+  margin-top: 10px;
+}
+.brands {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.brands h1 {
+  float: left;
+  color: #00b39b;
+  font-size: 1.625em;
+  margin: 0.25em 0 0.35em;
+  padding-right: 1em;
+}
+.brands-link {
+  color: #747474;
+}
+.health-platform {
+  background-color: #d5f5f6;
+}
+.health-platform h1 {
+  color: #00ccb1;
+  font-size: 32px;
+}
+.health-platform p {
+  color: #747474;
+  font-size: 14px;
+  margin: 40px 0;
+}
+.img-platform {
+  width: 35px;
+  height: 40px;
+}
+.heading-platform {
+  font-size: 24px;
+  color: #00b39b;
+}
+.para-platform {
+  color: #747474;
+  font-size: 13px;
+}
+.card {
+  min-height: 250px !important;
+}
+.customer-margin {
+  margin-top: -30px;
+}
+.improve h1 {
+  color: #00b39b;
+  font-size: 30px;
+}
+.improve p {
+  color: #747474;
+  font-size: 14px;
+}
+.office__desc {
+  color: #747474;
+  font-size: 18px;
+}
+footer {
+  color: #ababab;
+  font-size: 12px;
+  padding: 0 20px;
+  border-top: 1px solid #ababab42;
+}
+.gallery .card:hover {
+  box-shadow: -6px 6px 10px #d3cfc9;
+}
+@media screen and (max-width: 600px) {
+  .logo-docplanner {
+    width: 190px;
+  }
+  .menu-item,
+  .dropdown-content {
+    text-align: center !important;
+    border-bottom: 1px solid hsla(0, 0%, 100%, 0.2);
+    color: #fff;
+  }
+}
